@@ -15,8 +15,8 @@ function ProjectContainer({
       className={`card-container ${rowSpan} ${opacity} flex flex-col justify-between`}
     >
       {/* description of projects */}
-      <p className="font-bold text-xl text-center">{title}</p>
-      <div className="flex-1 flex flex-col items-center">
+      <p className="text-center text-xl font-bold">{title}</p>
+      <div className="flex flex-1 flex-col items-center">
         <TechStackList techArray={tech} />
         <p className="hidden sm:block">{projectDescription}</p>
       </div>
@@ -26,7 +26,7 @@ function ProjectContainer({
         <a
           rel="noreferrer"
           target="_blank"
-          className="transition-all font-bold duration-300 border bg-slate-800 hover:bg-slate-500 cursor-pointer  border-slate-500 rounded-full text-center"
+          className="cursor-pointer rounded-full border border-slate-500 bg-slate-800 text-center font-bold  transition-all duration-300 hover:bg-slate-500"
           href={repoLink}
         >
           Code
@@ -34,7 +34,7 @@ function ProjectContainer({
         <a
           rel="noreferrer"
           target="_blank"
-          className="transition-all font-bold duration-300 border bg-slate-800 hover:bg-slate-500 cursor-pointer  border-slate-500 rounded-full text-center"
+          className="cursor-pointer rounded-full border border-slate-500 bg-slate-800 text-center font-bold  transition-all duration-300 hover:bg-slate-500"
           href={liveLink}
         >
           Live Project

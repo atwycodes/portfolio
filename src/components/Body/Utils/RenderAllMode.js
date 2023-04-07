@@ -6,15 +6,17 @@ import Spotify from "../Spotify";
 import Portfolio from "./Projects/Portfolio";
 import CVGenerator from "./Projects/CVGenerator";
 import ToDoList from "./Projects/ToDoList";
+import MyTechStack from "../MyTechStack";
 
 function RenderAllMode() {
   return (
-    <div className="main-container gap-4 grid place-content-center">
+    <div className="main-container grid place-content-center gap-4">
       <AboutMe />
       <LinkedIn />
       <Portfolio />
       <CVGenerator />
-      <Spotify />
+      <MyTechStack />
+      {/* <Spotify /> */}
       <GitHub />
       <ToDoList />
     </div>

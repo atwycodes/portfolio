@@ -3,13 +3,13 @@ import spotifySvg from "./spotify-icon.svg";
 
 function Spotify({ opacity }) {
   return (
-    <div className={`card-container flex flex-col gap-1 col-span-2 ${opacity}`}>
+    <div className={`card-container col-span-2 flex flex-col gap-1 ${opacity}`}>
       <img className="w-11" alt="spotify icon" src={spotifySvg} />
       <div className="spotify flex flex-row gap-2">
-        <div className="flex flex-row gap-0.5 items-center">
-          <div className="font-bold spotify-bar1"></div>
-          <div className="font-bold spotify-bar2"></div>
-          <div className="font-bold spotify-bar3"></div>
+        <div className="flex flex-row items-center gap-0.5">
+          <div className="spotify-bar1 font-bold"></div>
+          <div className="spotify-bar2 font-bold"></div>
+          <div className="spotify-bar3 font-bold"></div>
         </div>
         <div className="text-base">Last played</div>
       </div>

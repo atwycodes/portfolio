@@ -2,7 +2,7 @@ import React from "react";
 
 function TechStackList({ techArray }) {
   return (
-    <div className="flex gap-1 justify-center py-2">
+    <div className="flex justify-center gap-1 py-2">
       {techArray.map((techItem) => {
         return techItem === "html" ? (
           <img

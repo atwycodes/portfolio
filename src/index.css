@@ -6,19 +6,19 @@
 
 @layer components {
   .navbar-icons-active {
-    @apply text-white border-2 px-2 transition-all duration-300 rounded-full border-slate-400 bg-slate-400 cursor-default opacity-100;
+    @apply cursor-default rounded-full border-2 border-slate-400 bg-slate-400 px-2 text-white opacity-100 transition-all duration-300;
   }
 
   .navbar-icons {
-    @apply text-white border-transparent border-2 px-2 transition-all duration-300 hover:opacity-60;
+    @apply border-2 border-transparent px-2 text-white transition-all duration-300 hover:opacity-60;
   }
 
   .card-container {
-    @apply rounded-3xl border-2 border-slate-400 bg-slate-800 text-white break-normal p-4;
+    @apply break-normal rounded-3xl border-2 border-slate-400 bg-slate-800 p-4 text-white;
   }
 
   .tech-icons {
-    @apply w-8 h-8;
+    @apply h-8 w-8;
   }
 
   #root {
