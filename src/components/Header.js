@@ -5,7 +5,7 @@ import Navbar from "./Navigation/Navbar";
 
 function Header({ filterHandler }) {
   return (
-    <div className="box-border flex h-24 flex-wrap items-center justify-center px-6 sm:justify-between">
+    <div className="box-border flex h-24 flex-wrap items-center justify-center px-6 md:justify-between">
       <Logo />
       <Navbar filterHandler={filterHandler} />
       <Contact />

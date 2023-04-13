@@ -1,10 +1,11 @@
 import React from "react";
 import ProjectContainer from "../ProjectContainer";
 
-function CVGenerator({ opacity }) {
+function CVGenerator({ opacity, order = "" }) {
   return (
     <>
       <ProjectContainer
+        order={order}
         opacity={opacity}
         projectDescription="My first project utilising ReactJS and Tailwind CSS - feel free to try it out!"
         title="CV Generator"

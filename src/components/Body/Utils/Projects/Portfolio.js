@@ -1,12 +1,13 @@
 import React from "react";
 import ProjectContainer from "../ProjectContainer";
 
-function Portfolio({ opacity }) {
+function Portfolio({ opacity, order = "" }) {
   return (
     <>
       <ProjectContainer
+        order={order}
         opacity={opacity}
-        projectDescription="I wanted to create a portfolio from scratch to showcase my works and my current skillset in a concise format."
+        projectDescription="This portfolio - made from scratch to showcase my works."
         title="This Portfolio!"
         tech={["html", "tailwind", "react"]}
         rowSpan="row-span-2"

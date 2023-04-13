@@ -17,7 +17,7 @@ function Navbar({ filterHandler }) {
   };
 
   return (
-    <div className="grid grid-flow-col gap-4 rounded-full border-2 border-slate-400 bg-slate-900 p-1 text-sm sm:text-base">
+    <div className="grid grid-flow-col gap-4 rounded-full border-2 border-slate-400 bg-slate-900 p-1">
       <button
         onClick={(event) => clickHandler(event, "All")}
         className="navbar-icons navbar-icons-active"
@@ -35,12 +35,6 @@ function Navbar({ filterHandler }) {
         className="navbar-icons"
       >
         Projects
-      </button>
-      <button
-        onClick={(event) => clickHandler(event, "Media")}
-        className="navbar-icons"
-      >
-        Media
       </button>
     </div>
   );
