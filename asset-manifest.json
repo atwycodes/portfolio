@@ -2,8 +2,8 @@
   "files": {
     "main.css": "/portfolio/static/css/main.7e13e754.css",
     "main.js": "/portfolio/static/js/main.a52713e5.js",
-    "static/media/github-icon.svg": "/portfolio/static/media/github-icon.c8c6a7d4fdfb51ecc591fdc30d9945c6.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/github-icon.svg": "/portfolio/static/media/github-icon.c8c6a7d4fdfb51ecc591fdc30d9945c6.svg",
     "main.7e13e754.css.map": "/portfolio/static/css/main.7e13e754.css.map",
     "main.a52713e5.js.map": "/portfolio/static/js/main.a52713e5.js.map"
   },
