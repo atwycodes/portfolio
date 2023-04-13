@@ -12,7 +12,7 @@ function Portfolio({ opacity, order = "" }) {
         tech={["html", "tailwind", "react"]}
         rowSpan="row-span-2"
         repoLink={"https://github.com/atwycodes/portfolio"}
-        liveLink={"https://github.com/atwycodes/portfolio"}
+        liveLink={"https://atwycodes.github.io/portfolio/"}
       />
     </>
   );
