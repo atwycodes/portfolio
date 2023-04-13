@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/atwycodes/portfolio/static/css/main.7e13e754.css",
-    "main.js": "/atwycodes/portfolio/static/js/main.ad098b0f.js",
-    "static/media/github-icon.svg": "/atwycodes/portfolio/static/media/github-icon.c8c6a7d4fdfb51ecc591fdc30d9945c6.svg",
-    "index.html": "/atwycodes/portfolio/index.html",
-    "main.7e13e754.css.map": "/atwycodes/portfolio/static/css/main.7e13e754.css.map",
-    "main.ad098b0f.js.map": "/atwycodes/portfolio/static/js/main.ad098b0f.js.map"
+    "main.css": "/portfolio/static/css/main.7e13e754.css",
+    "main.js": "/portfolio/static/js/main.a52713e5.js",
+    "static/media/github-icon.svg": "/portfolio/static/media/github-icon.c8c6a7d4fdfb51ecc591fdc30d9945c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.7e13e754.css.map": "/portfolio/static/css/main.7e13e754.css.map",
+    "main.a52713e5.js.map": "/portfolio/static/js/main.a52713e5.js.map"
   },
   "entrypoints": [
     "static/css/main.7e13e754.css",
-    "static/js/main.ad098b0f.js"
+    "static/js/main.a52713e5.js"
   ]
 }
