@@ -6,6 +6,7 @@ import Portfolio from "./Projects/Portfolio";
 import CVGenerator from "./Projects/CVGenerator";
 import ToDoList from "./Projects/ToDoList";
 import MyTechStack from "../MyTechStack";
+import KDLandingPage from "./Projects/KDLandingPage";
 
 function RenderAboutMode() {
   return (
@@ -16,7 +17,8 @@ function RenderAboutMode() {
       <MyTechStack opacity="opacity-100" order="order-2 md:order-4" />
       <Portfolio opacity="opacity-30" order="order-5" />
       <CVGenerator opacity="opacity-30" order="order-6" />
-      <ToDoList opacity="opacity-30" order="order-7" />
+      <KDLandingPage opacity="opacity-30" order="order-7" />
+      <ToDoList opacity="opacity-30" order="order-8" />
     </div>
   );
 }
